@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Oleksandr",
+      "Surname": "Ponezha",
+      "Phone_number": "0-12345612"
+    },
+    {
+        "id": 2,
+        "name": "Vasyl",
+        "Surname": "Ponezha",
+        "Phone_number": "123-4253731"
+      },
+      {
+        "id": 3,
+        "name": "Sergii",
+        "Surname": "Ponezha",
+        "Phone_number": "111-11099999"
+      },
+      {
+        "id": 4,
+        "name": "Polina",
+        "Surname": "Ponezha",
+        "Phone_number": "1-2345123"
+      },
+      {
+        "id": 5,
+        "name": "Yuliia",
+        "Surname": "Hrubiak",
+        "Phone_number": "78782-1111"
+      },
+      {
+        "id": 6,
+        "name": "Kate",
+        "Surname": "Lokhmar",
+        "Phone_number": "431-1234"
+      },
+      {
+        "id": 7,
+        "name": "Denys",
+        "Surname": "Lokhmar",
+        "Phone_number": "921-34542"
+      },
+      {
+        "id": 8,
+        "name": "Oleksandr",
+        "Surname": "Rozumnyi",
+        "Phone_number": "202-1111111"
+      }
+]

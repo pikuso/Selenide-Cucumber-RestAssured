@@ -1,0 +1,202 @@
+{
+  "id": "1b46cc84-7266-4b8e-ba3c-9dd774a68f95",
+  "version": "2.0",
+  "name": "HomeTask1.2",
+  "url": "https://catalog.onliner.by/photo",
+  "tests": [{
+    "id": "3d8b8d25-51ac-4397-8f98-d41f208a45d0",
+    "name": "test1",
+    "commands": [{
+      "id": "368636bd-de8b-4215-beaf-2a2212f4f7a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=query",
+      "targets": [
+        ["name=query", "name"],
+        ["css=.fast-search__input", "css:finder"],
+        ["xpath=//input[@name='query']", "xpath:attributes"],
+        ["xpath=//div[@id='fast-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c3b81e-bae1-4369-9913-a96e37a892c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-main-navigation__item:nth-child(3) .b-main-navigation__text",
+      "targets": [
+        ["css=.b-main-navigation__item:nth-child(3) .b-main-navigation__text", "css:finder"],
+        ["xpath=//div[@id='minWidth']/div/div[2]/div/div/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Автобарахолка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af52c04-e366-4fbf-b844-72f36116ce71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-main-navigation__item:nth-child(7) .b-main-navigation__text",
+      "targets": [
+        ["css=.b-main-navigation__item:nth-child(7) .b-main-navigation__text", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/header/div[2]/div/nav/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b1b05b7-a4d5-4b4f-ac68-a307b40723b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__row:nth-child(9) .catalog-form__checkbox-item:nth-child(4)",
+      "targets": [
+        ["css=.catalog-form__row:nth-child(9) .catalog-form__checkbox-item:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[9]/div/div/div[2]/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Sony')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a13cb29b-54aa-48c2-aec4-6c91c959d397",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__group:nth-child(1) .input-style__combo > .input-style__wrapper:nth-child(1) > .input-style",
+      "targets": [
+        ["css=.catalog-form__group:nth-child(1) .input-style__combo > .input-style__wrapper:nth-child(1) > .input-style", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[10]/div/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14ccb850-01b4-4bb0-a66b-f9e54428b03f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.catalog-form__group:nth-child(1) .input-style__combo > .input-style__wrapper:nth-child(1) > .input-style",
+      "targets": [
+        ["css=.catalog-form__group:nth-child(1) .input-style__combo > .input-style__wrapper:nth-child(1) > .input-style", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[10]/div/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "600"
+    }, {
+      "id": "56d45cf1-ed64-46e9-8a4b-3195599f0d7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__row:nth-child(13) .catalog-form__checkbox-item:nth-child(3)",
+      "targets": [
+        ["css=.catalog-form__row:nth-child(13) .catalog-form__checkbox-item:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[13]/div/div[2]/div[2]/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79c5e29-df91-4da4-9770-25a3571a581d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__row:nth-child(15) .catalog-form__checkbox-item:nth-child(1)",
+      "targets": [
+        ["css=.catalog-form__row:nth-child(15) .catalog-form__checkbox-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[15]/div/div[2]/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[2]/div[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'без объектива (body)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "656181e7-f2d5-490d-891f-125ee3e0ab64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__checkbox-item_active:nth-child(4)",
+      "targets": [
+        ["css=.catalog-form__checkbox-item_active:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[9]/div/div/div[2]/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Sony')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcde5a95-120f-4fdf-b6b0-14eb1ef15748",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__row:nth-child(36) .input-style__wrapper:nth-child(1) > .input-style",
+      "targets": [
+        ["css=.catalog-form__row:nth-child(36) .input-style__wrapper:nth-child(1) > .input-style", "css:finder"],
+        ["xpath=(//input[@type='text'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[36]/div/div[2]/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[36]/div/div[2]/div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a12fd0e7-665a-4c53-95b5-7726fe21aa31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Поддержка пользователей",
+      "targets": [
+        ["linkText=Поддержка пользователей", "linkText"],
+        ["css=.footer-style__item:nth-child(10) > .footer-style__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Поддержка пользователей')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/footer/div/div/div/div/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://support.onliner.by')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Поддержка пользователей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d74aaf3e-ec58-468d-a3a5-a5bfdba652e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-style_complementary",
+      "targets": [
+        ["css=.button-style_complementary", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[2]/div[2]/div[32]/div", "xpath:idRelative"],
+        ["xpath=//div[32]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20d38587-3f18-41ec-85f3-4054ba9130ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__offers-unit:nth-child(1) .catalog-form__image",
+      "targets": [
+        ["css=.catalog-form__offers-unit:nth-child(1) .catalog-form__image", "css:finder"],
+        ["xpath=//img[@alt='Mini Shot 3 C300R (черный/желтый)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[3]/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e24b1f5-673f-467e-b45b-9d8ed9be936a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__offers-unit:nth-child(7) .catalog-form__image",
+      "targets": [
+        ["css=.catalog-form__offers-unit:nth-child(7) .catalog-form__image", "css:finder"],
+        ["xpath=//img[@alt='EOS RP Body']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[3]/div[2]/div/div[7]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27275589-ff28-4c19-85ef-11e98e9cd4bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-form__offers-unit:nth-child(14) .catalog-form__image",
+      "targets": [
+        ["css=.catalog-form__offers-unit:nth-child(14) .catalog-form__image", "css:finder"],
+        ["xpath=//img[@alt='Instax Mini 12 (мятный)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div/div/div/div[4]/div/div/div/div/div[3]/div[2]/div/div[14]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bfb1c51d-04e6-4406-bd9a-e325b022117e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d8b8d25-51ac-4397-8f98-d41f208a45d0"]
+  }],
+  "urls": [],
+  "plugins": []
+}

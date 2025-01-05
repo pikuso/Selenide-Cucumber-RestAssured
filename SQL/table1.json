@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Oleksandr",
+      "city": "Kyiv",
+      "Country": "Ukraine"
+    },
+    {
+      "id": 2,
+      "name": "Vasyl",
+      "city": "Gdansk",
+      "Country": "Poland"
+    },
+    {
+      "id": 3,
+      "name": "Sergii",
+      "city": "Hotiv",
+      "Country": "Ukraine"
+    },
+    {
+      "id": 4,
+      "name": "Polina",
+      "city": "Kyiv",
+      "Country": "Ukraine"
+    },
+    {
+      "id": 5,
+      "name": "Kate",
+      "city": "Split",
+      "Country": "Chroatia"
+    },
+    {
+      "id": 6,
+      "name": "Yuliia",
+      "city": "Ternopil",
+      "Country": "Ukraine"
+    },
+    {
+      "id": 7,
+      "name": "Denys",
+      "city": "Split",
+      "Country": "Chroatia"
+    },
+    {
+      "id": 8,
+      "name": "Oleksandr",
+      "city": "Cherkasy",
+      "Country": "Ukraine"
+    }
+  ]
+  
